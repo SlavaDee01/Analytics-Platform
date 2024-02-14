@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: local('PF Agora Sans Pro Black'), local('PF-Agora-Sans-Pro-Black'),
+        url('PFAgoraSansPro-Black.woff2') format('woff2'),
+        url('PFAgoraSansPro-Black.woff') format('woff'),
+        url('PFAgoraSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
