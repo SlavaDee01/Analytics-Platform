@@ -142,7 +142,7 @@ q:before, q:after {
   &__cards{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 26px;
+    gap: 31px;
   }
   &__card{
     position: relative;
