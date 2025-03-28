@@ -51,7 +51,6 @@ q:before, q:after {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 100%;
   max-width: 1230px;
 }
 
@@ -79,7 +78,7 @@ q:before, q:after {
 
 .header {
   position: sticky;
-  padding: 28px 0;
+  padding: 28px 15px;
   z-index: 2;
 }
 
@@ -161,7 +160,7 @@ q:before, q:after {
 .intro__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 26px;
+  gap: 31px;
 }
 
 .intro__card {
@@ -513,6 +512,12 @@ table {
   line-height: 16px;
   text-transform: uppercase;
   outline: none;
+}
+
+@media (max-width: 1199px) {
+  .intro__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 
