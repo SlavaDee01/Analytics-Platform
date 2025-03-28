@@ -78,7 +78,7 @@ q:before, q:after {
 
 .header {
   position: sticky;
-  padding: 28px 15px;
+  padding: 28px 0;
   z-index: 2;
 }
 
