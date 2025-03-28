@@ -68,7 +68,7 @@ q:before, q:after {
 }
 .header{
   position: sticky;
-  padding: 28px 0;
+  padding: 28px 15px;
   z-index: 2;
 
   &__content{
@@ -509,6 +509,12 @@ table{
   border: 7px solid #2194FF;
 }
 
+@mobile (max-width: 1199px) {
+
+	.intro__cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
 
 
 
