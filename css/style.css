@@ -262,7 +262,7 @@ q:before, q:after {
 
 .diagrams {
   position: relative;
-  margin-top: 105px;
+  padding-top: 105px;
 }
 
 .diagrams__items {
@@ -271,7 +271,7 @@ q:before, q:after {
 }
 
 .diagrams__item {
-  width: 47%;
+  width: 50%;
 }
 
 .diagrams__item:last-child {
@@ -308,16 +308,11 @@ q:before, q:after {
   max-width: 390px;
 }
 
-/* .diagrams__btn:hover {
-  border: 1px solid #fff;
-} */
-
 .diagrams__picture {
   position: relative;
   margin: 0 auto;
-  max-width: 595px;
-  height: auto;
-  display: block;
+  max-width: 575px;
+  width: 100%;
 }
 
 .information {
