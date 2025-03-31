@@ -518,9 +518,13 @@ table {
   }
 
   .diagrams__item {
-    padding: 30 0;
+    padding: 30px 0;
     width: 100%;
   }
+  .diagrams__box,
+  .diagrams__picture {
+    display: flex;
+    justify-content: center;
 }
 
 
