@@ -315,8 +315,8 @@ q:before, q:after {
   width: 100%;
 }
 
-.diagrams__picture::before {
-  content: '';
+.diagrams__picture::after {
+  content: 'AAA';
   position: absolute;
   top: 165px;
   left: 0;
