@@ -274,11 +274,11 @@ q:before, q:after {
   width: 48%;
 }
 
-.diagrams__item:last-child {
+/* .diagrams__item:last-child {
   position: relative;
-}
+} */
 
-.diagrams__item:last-child::before {
+/* .diagrams__item:last-child::before {
   content: '';
   position: absolute;
   top: 165px;
@@ -289,7 +289,7 @@ q:before, q:after {
   background-image: url("../image/svg/man-bg.svg");
   background-repeat: no-repeat;
   z-index: 8;
-}
+} */
 
 .diagrams__item-title {
   font-weight: 900;
