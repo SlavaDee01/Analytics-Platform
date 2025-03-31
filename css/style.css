@@ -515,6 +515,12 @@ table {
   .diagrams__items {
     flex-direction: column;
     align-items: center;
+  }
+
+  .diagrams__item {
+    padding: 30 0;
+    width: 100%;
+  }
 }
 
 
