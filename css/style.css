@@ -307,11 +307,14 @@ q:before, q:after {
   max-width: 390px;
 }
 
-.diagrams__pictures {
+/* .diagrams__pictures {
+  position: relative;
+} */
+
+.picture-diagram {
   position: relative;
 }
 
-.picture-diagram,
 .picture-man {
   position: absolute;
 }
