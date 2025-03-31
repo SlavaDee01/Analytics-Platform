@@ -73,7 +73,6 @@ q:before, q:after {
 .btn:hover {
   color: #E01E2E;
   background-color: #FFFFFF;
-  /* border: 2px solid #ff0b03; */
 }
 
 .header {
@@ -273,23 +272,6 @@ q:before, q:after {
 .diagrams__item {
   width: 48%;
 }
-
-/* .diagrams__item:last-child {
-  position: relative;
-} */
-
-/* .diagrams__item:last-child::before {
-  content: '';
-  position: absolute;
-  top: 165px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 480px;
-  background-image: url("../image/svg/man-bg.svg");
-  background-repeat: no-repeat;
-  z-index: 8;
-} */
 
 .diagrams__item-title {
   font-weight: 900;
@@ -535,6 +517,13 @@ table {
   .diagrams__picture {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    display: none:
+    }
 }
 
 
