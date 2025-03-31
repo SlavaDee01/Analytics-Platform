@@ -291,7 +291,7 @@ q:before, q:after {
 
 .diagrams__pictures {
   position: relative;
-  max-height: 707px;
+  height: 575px;
 }
 
 .picture-diagram,
@@ -300,9 +300,10 @@ q:before, q:after {
 }
 
 .diagrams__picture {
-  margin: 0 auto;
   max-width: 575px;
   width: 100%;
+  left: 0;
+  right: 0;
 }
 
 .information {
